@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #B8226A;
+    z-index: 2;
+}
+
+#nav {
+    z-index: 1;
+}
+.logo {
+    max-width: 3rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+    
+    
+}
+
+@media screen and (max-width: 550px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        
+    }
+
+    .abrir-menu {
+        color: #F8E5DF;
+    }
+
+    .cerrar-menu {
+        color: #B8226A;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: ;
+    }
+
+    .nav-list  {
+        color: black;
+        font-family: 'Italianno';
+        font-weight: 400;
+        size: 30px;
+        
+    }
+}
+
+
+.principal {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (dividir la altura por el ancho y multiplicar por 100 para obtener el porcentaje) */
+}
+
+.principal img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
