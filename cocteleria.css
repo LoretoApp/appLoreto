@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 :root{
     --color-principal: #B8226A;
@@ -12,6 +13,9 @@
     --texto-btn:24px
 }
 
+=======
+*{ padding: 0;margin: 0;}
+>>>>>>> origin/juan
 .navbar{
     background-color:var(--color-principal);
 }
@@ -72,14 +76,10 @@ h1{
 }
 
 .container.text-center1 {
-    background-image: url("assets/img/banqueteria1.png");
     background-size: cover;
     background-position: center;
-    color: ; /* Ajusta el color del texto según tus necesidades */
-    opacity : ;
     
   }
-#grandeluna {
-    
-    
+  .navbar-importado{
+    width: 100% !important;
 }
