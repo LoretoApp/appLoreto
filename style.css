@@ -1,6 +1,19 @@
-*{ padding: 0;margin: 0;}
+
+:root{
+    --color-principal: #B8226A;
+    --color-segundo: #F8E5DF;
+    --color-tercero: #FFA041;
+    --color-text:#4B102D;
+    --texto-h1: 48px;
+    --texto-h2: 30px;
+    --texto-h3:15px;
+    --texto-h4: 10px;
+    --texto-parrafos:18px;
+    --texto-btn:24px
+}
+
 .navbar{
-    background-color: #B8226A;
+    background-color:var(--color-principal);
 }
 
 .imagen-icon-nav{
@@ -59,4 +72,17 @@ h1{
 }
 .fondo{
     background-image: url(assets/img/banqueteria3.png);
+}
+
+.container.text-center1 {
+    background-image: url("assets/img/banqueteria1.png");
+    background-size: cover;
+    background-position: center;
+    color: ; /* Ajusta el color del texto según tus necesidades */
+    opacity : ;
+    
+  }
+#grandeluna {
+    
+    
 }
