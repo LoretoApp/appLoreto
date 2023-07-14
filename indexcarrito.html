@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loreto Ideas</title>
+
+    <!-- LINK EXTERNOS PARA BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="stylecarrito.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <form class="form-inline my-2">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Inicio <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pasteleria</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Reposteria</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Extras</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cocteleria</a>
+          </li>
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Desayunos</a>
+          </li>
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <div class="contenedor-icons"></div>
+        <div class="imagen-icon-nav">
+          <img
+            id="img-icon"
+            src="./assets/icons/309042_group_users_people_icon.png"
+            alt=""
+          />
+        </div>
+           <!--  </header> -->
+      </nav>
+      <!--  SECCION CARRITO -->
+      <div class="container">
+        <div class="cart-container">
+          <!-- Título del carrito -->
+          <h2>Mi Carrito</h2>
+    
+          <!-- Primer producto en el carrito -->
+          <div class="cart-item">
+            <div class="item-image">
+              <img src="./assets/icons/wthasapp.png" alt="Producto 1">
+            </div>
+            <div class="item-details">
+              <div class="item-title">Producto 1</div>
+              <div class="item-price">$10</div>
+            </div>
+            <div class="item-quantity">
+              <button class="quantity-button">-</button>
+              <span class="quantity">1</span>
+              <button class="quantity-button">+</button>
+            </div>
+          </div>
+    
+          <!-- Segundo producto en el carrito -->
+          <div class="cart-item">
+            <div class="item-image">
+              <img src="producto2.jpg" alt="Producto 2">
+            </div>
+            <div class="item-details">
+              <div class="item-title">Producto 2</div>
+              <div class="item-price">$20</div>
+            </div>
+            <div class="item-quantity">
+              <button class="quantity-button">-</button>
+              <span class="quantity">1</span>
+              <button class="quantity-button">+</button>
+            </div>
+          </div>
+    
+          <!-- Resto de productos -->
+    
+          <!-- Resumen del carrito: cantidad total y precio total -->
+          <div class="cart-summary">
+            <div class="total-quantity">Cantidad total: <span class="quantity">2</span></div>
+            <div class="total-price">Precio total: $<span class="price">30</span></div>
+          </div>
+    
+          <!-- Botón para enviar el pedido -->
+          <button class="btn btn-primary btn-submit">Enviar pedido</button>
+        </div>
+      </div>
+    <!-- SECCION DE IMAGEN PRINCIPAL -->
+    <section
+      class="principal with .img-fluid. max-width: 100%; and height: auto;"
+    >
+      <div class="contenedor-principal">
+        <img
+          id="img-principal"
+          src="./assets/img/imagen-principal.jfif"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- SECCION CUERPO DE PAGINA -->
+    <section >
+      <div class="container text-center">
+        <div class="row">
+        <div class="categorias-1 col-md-4">
+          <img
+            class="img-categorias"
+            src="./assets/img/torta-fresas.png"
+            alt=""
+          />
+        </div>
+        <div class="categorias-2 col-md-4">
+            <img
+              class="img-categorias"
+              src="./assets/img/banqueteria.png"
+              alt=""
+            />
+                 </div>
+        <div class="categorias-3 col-md-4">
+            <img class="img-categorias" src="./assets/img/globos.png" alt="" />
+          
+        </div>
+
+
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
