@@ -1,0 +1,105 @@
+.navbar{
+    background-color: #B8226A;
+}
+
+.imagen-icon-nav{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+#img-icon{
+width: auto ;
+height: auto;
+max-width:100% ;
+max-height: 100%;
+}
+
+#img-icon-carrito{
+    width: auto ;
+height: auto;
+max-width:100% ;
+max-height: 100%;
+}
+
+#img-principal{
+    width: auto;
+    height: auto;
+max-width:100% ;
+max-height: 100%;
+margin-top: 5px;
+}
+
+.categorias-1, .categorias-2 , .categorias-3 {
+    width: 30%;
+    height: 30%;
+}
+
+.img-categorias{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* clases carrito */
+.container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  height: 100vh; /* Establece la altura del contenedor principal al 100% del viewport */
+}
+
+.cart-container {
+  width: 100%; /* Ajusta el ancho del carrito al 100% */
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-price {
+  margin-top: 5px;
+}
+
+.item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: none;
+  background-color: #B8226A; /* Color de fondo del botón */
+  color: white; /* Color de texto del botón */
+  border-radius: 50%; /* Puntas redondeadas del botón */
+  cursor: pointer;
+}
+
+.btn-submit {    /* boton enviar pedido*/
+  margin-top: 20px; /* Espacio superior */
+  background-color: #B8226A; /* Color de fondo  */
+  color: white; /* Color de texto */
+  border-radius: 50px; /* Puntas redondeadas  */
+  text-align: center; /* Centra el texto */
+  display: block; /* Hace que el botón ocupe todo el ancho disponible */
+  margin-left: auto; /* Centra el botón horizontalmente */
+  margin-right: auto; /* Centra el botón horizontalmente */
