@@ -1,44 +1,15 @@
-.navbar{
-    background-color: #B8226A;
+:root{
+  --color-principal: #B8226A;
+  --color-segundo: #F8E5DF;
+  --color-tercero: #FFA041;
+  --color-text:#4B102D;
+  --texto-h1: 48px;
+  --texto-h2: 30px;
+  --texto-h3:15px;
+  --texto-h4: 10px;
+  --texto-parrafos:18px;
+  --texto-btn:24px
 }
-
-.imagen-icon-nav{
-    display: flex;
-    width: 20px;
-    height: 20px;
-}
-#img-icon{
-width: auto ;
-height: auto;
-max-width:100% ;
-max-height: 100%;
-}
-
-#img-icon-carrito{
-    width: auto ;
-height: auto;
-max-width:100% ;
-max-height: 100%;
-}
-
-#img-principal{
-    width: auto;
-    height: auto;
-max-width:100% ;
-max-height: 100%;
-margin-top: 5px;
-}
-
-.categorias-1, .categorias-2 , .categorias-3 {
-    width: 30%;
-    height: 30%;
-}
-
-.img-categorias{
-    max-width: 100%;
-    max-height: 100%;
-}
-
 /* clases carrito */
 .container {
   display: flex;
@@ -73,6 +44,7 @@ margin-top: 5px;
 
 .item-title {
   font-weight: bold;
+  font-size: var(--texto-h4);
 }
 
 .item-price {
