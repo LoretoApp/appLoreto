@@ -28,15 +28,17 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./cocteleria.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
 
-<iframe class="navbar-importado " src="./menu.html" width="100%" height="100%" ></iframe>
+<!-- <iframe class="navbar-importado" src="./navbar.html" frameborder="0"></iframe> -->
+
+<iframe src="./menu.html" width="100% border:none"></iframe>
 
     <div class="container1">
       <div class="row">
-        <div class="carruselUno">
+        <div class="carruselUno container-fluid">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -44,7 +46,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item-1 active">
                 <img class="d-block w-100" src="./assets/img/banqueteria1.png" alt="First slide">
               </div>
               <div class="carousel-item">
@@ -69,14 +71,17 @@
 
     <!-- SECCION CUERPO DE PAGINA -->
     <section>
-      <div class="container text-center1">
-        <div class="text-overlay">
+      <div class="container-fluid text-center1 fondo">
+        <div class="container-fluid">
           <h1>Cocteleria</h1>
           <h3>Damos servicios de banquetería para distintos eventos privados o familiares.<br>
             Se pueden crear menús salados, dulces o mixtos, según lo que necesite el cliente.<br>
             Se debe hacer la solicitud con al menos 10 días de anticipación.<br>
-            Puede escribirnos al WhatsApp para más consultas.</h3></div>
+            Puede escribirnos al WhatsApp para más consultas.</h3>
+          </div>
       </div>
     </section>
+    <iframe src="./footer.html" width="100% border:none"></iframe>
+
   </body>
 </html>

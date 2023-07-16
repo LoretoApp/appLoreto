@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loreto Ideas</title>
-    <!-- Rama Camilo -->
-    <!-- LINK EXTERNOS PARA BOOTSTRAP -->
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -28,40 +26,96 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <iframe class="navbar-importado" src="./navbar.html" frameborder="0"></iframe>
+    <div class="contenedor-body">
+      <iframe src="./menu.html" width="100% border:none"></iframe>
 
-    <!-- SECCION DE IMAGEN PRINCIPAL -->
-    <section class="principal with .img-fluid. max-width: 100%; and height: auto;">
-      <div class="contenedor-principal">
-        <img
-          id="img-principal"
-          src="./assets/"
-          alt=""
-        />
-      </div>
-    </section>
-
-    <!-- SECCION CUERPO DE PAGINA -->
-    <section>
-      <div class="container text-center">
-        <div class="row">
-          <div class="categorias-1 col-md-4">
-            <img class="img-categorias" src="./assets/img/torta-fresas.png" alt=""/>
+      <section class="mt-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center p-0 "
+             >
+              <img
+                class="img-fluid img-principal"
+                src="./assets/img/principal-cuadricula.jfif"
+                alt="Torta de chocolate decorada"
+              />
+            </div>
           </div>
-          <div class="categorias-2 col-md-4">
-            <img class="img-categorias" src="./assets/img/banqueteria.png" alt=""/>
-          </div>
-          <div class="categorias-3 col-md-4">
-            <img class="img-categorias" src="./assets/img/globos.png" alt="" />
-          
         </div>
-        <!-- comentario Nicole -->
+      </section>
+      <!-- SECCION IMAGENES 3 -->
+      <section class="mt-1">
+        <div class="container-fluid pt-2 pb-2">
+          <div class="row d-flex align-content-center">
+            <div class="recuadro-img col-4 col-sm-4">
+              <img
+                class="img-producto-medio img col-12 col-sm-12 "
+                src="./assets/img/tartadefresa.png"
+                alt=""
+              />
 
+              <a href="#" class="btn-botones">Pasteleria</a>
+            </div>
+
+                        <!-- ---------------2 menu-------- -->
+
+            <div class="recuadro-img col-4 col-sm-4 ">
+                <img
+                  class="img-producto-medio img col-12 col-sm-12 "
+                  src="./assets/img/img-sinFondo/Banqueteria.png"
+                  alt=""
+                />
+  
+                <a href="./cocteleria.html" class="btn-botones">Cocteleria</a>
+              </div>
+            <!-- ---------------3 menu-------- -->
+              <div class="recuadro-img col-4 col-sm-4">
+                <img
+                  class="img-producto-medio img col-12 col-sm-12 "
+                  src="./assets/img/img-sinFondo/globos.png"
+                  alt=""
+                />
+  
+                <a href="#" class="btn-botones">Desayunos</a>
+              </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- -------------------------------------------------------------------------------------- -->
+    <!-- SECCION TEXTO -->
+    <div class="contenedor-text-carru">
+      <section class="mt-1">
+        <div class="seccion-texto container-fluid ">
+          <div class="row  ">
+            <div
+              class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center p-0"
+            >
+             <p>Trabajamos con los mejores ingredientes del país para entregar la mejor calidad a nuestros clientes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- -------------Seccion carrusel-------- -->
+      <section class="mt-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center p-0 "
+              height="200px">
+              <img
+                class="img-fluid" 
+                src="./assets/img/principal2.jpg"
+                alt="Torta de chocolate decorada"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <iframe src="./footer.html" width="100% border:none"></iframe>
+
   </body>
+
 </html>
