@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-  
-  nav {
-    background-color: #B8226A;
-  }
   h3 {
     font-family: 'Italianno', cursive;
     font-size: 20vw;
@@ -11,6 +7,9 @@
   }
   .mt-1,body{
     background-color: #F8E5DF;
+  }
+  .imagen-fondo{
+    /* background-image: url('./assets/img/imagen-principal.jpg'); */
   }
   .botones {
     border-top: 5px solid #B8226A;
@@ -26,6 +25,8 @@
   }
   .boton-agregar {
     background-color: #B8226A ;
+    color: #F8E5DF;
+    font-weight: 600;
     padding: 0;
     display: flex;
     align-items: center;
@@ -36,17 +37,31 @@
     text-align: justify;
     margin: 5px;
   }
+  .btn-detalle {
+    display: flex;
+  }
+  .detalle {
+    font-size: 2vw;
+    font-weight: 900;
+    margin: 0 0 0 10%;
+    padding: 0 3px 0 3px;
+    width: fit-content;
+    background-color: #FFA041;
+  }
   .porciones,.precio {
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 0;
+    font-weight: 600;
   }
   .porciones {
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .card-title {
-    font-size: 4vw;
+    font-size: 3vw;
+    font-weight: 600;
     margin: 0;
-    padding-top: 10px;
+    padding: 0px;
+    margin-top: 10px;
   }
   .card-img-top {
     border-radius: 10px;
@@ -56,7 +71,7 @@
     border-radius: 10px;
   }
   .boton-agregar{
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   .col-producto {
     padding: 4px;
