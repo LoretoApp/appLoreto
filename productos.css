@@ -5,23 +5,21 @@
     font-weight: 500;
     color: #4B102D;
   }
-  .mt-1,body{
-    background-color: #F8E5DF;
-  }
-  .imagen-fondo{
-    /* background-image: url('./assets/img/imagen-principal.jpg'); */
+  body{
+    background-image: url('./assets/img/fondo-cupcakes.jfif');
+    background-repeat: round;
   }
   .botones {
     border-top: 5px solid #B8226A;
-    border-radius: 17px;
+    border-radius: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
     background-color: #F8E5DF;
-    font-family: 'Italianno', cursive;
-    font-weight: 600;
-    font-size: 6vw;
-    width: 100%;
+    font-family: 'Hahmlet';
+    font-weight: 500;
+    font-size: 5vw;
     color: #4B102D;
     padding: 0;
+    width: 100%;
   }
   .boton-agregar {
     background-color: #B8226A ;
@@ -36,44 +34,51 @@
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     margin: 5px;
+    color: #4B102D;
   }
   .btn-detalle {
     display: flex;
   }
   .detalle {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 900;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 20px;
     padding: 0 3px 0 3px;
     width: fit-content;
     background-color: #FFA041;
+    border-radius: 30px;
   }
-  .porciones,.precio {
+  .precio {
     font-size: 2.5vw;
     margin: 0;
     font-weight: 600;
   }
   .porciones {
     margin-left: 20px;
+    font-size: 2.5vw;
   }
   .card-title {
     font-size: 3vw;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0;
-    padding: 0px;
-    margin-top: 10px;
+    padding: 0 0 5px 20px;
   }
-  .card-img-top {
+  .img-container {
     border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    background-color: #F8E5DF;
+    border: 2px solid white;
   }
   .card {
     border-radius: 10px;
   }
   .boton-agregar{
     font-size: 2.5vw;
+    border-radius: 30px;
   }
   .col-producto {
     padding: 4px;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
   }
-   
