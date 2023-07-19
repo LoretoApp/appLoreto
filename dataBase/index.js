@@ -2,6 +2,9 @@ const express = require('express');
 const sequelize = require('sequelize');
 const app = express();
 const PORT = 3000;
+const cors = require('cors')
+
+app.use(cors())
 
 const db_connection = require('./services/dataBase_appLoreto')
 const tartasModel = require('./models/tartas_model')

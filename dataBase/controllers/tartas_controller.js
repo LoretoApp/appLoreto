@@ -6,7 +6,7 @@ const getAllTartas = async (req, res) => {
   try {
   const lista_tartas = await tartasModel.findAll();
   res.status(200).json(lista_tartas);
-  console.log(JSON.stringify(lista_tartas))
+  // console.log(JSON.stringify(lista_tartas))
   } catch (error) {
     res.status(400).json({msg: error})
   }
