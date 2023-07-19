@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+  
+  nav {
+    background-color: #B8226A;
+  }
+  h3 {
+    font-family: 'Italianno', cursive;
+    font-size: 20vw;
+    font-weight: 500;
+    color: #4B102D;
+  }
+  .mt-1,body{
+    background-color: #F8E5DF;
+  }
+  .botones {
+    border-top: 5px solid #B8226A;
+    border-radius: 17px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    background-color: #F8E5DF;
+    font-family: 'Italianno', cursive;
+    font-weight: 600;
+    font-size: 6vw;
+    width: 100%;
+    color: #4B102D;
+    padding: 0;
+  }
+  .boton-agregar {
+    background-color: #B8226A ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .card {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin: 5px;
+  }
+  .porciones,.precio {
+    font-size: 3vw;
+    margin: 0;
+  }
+  .porciones {
+    margin-left: 10px;
+  }
+  .card-title {
+    font-size: 4vw;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .card-img-top {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+  .card {
+    border-radius: 10px;
+  }
+  .boton-agregar{
+    font-size: 3vw;
+  }
+  .col-producto {
+    padding: 4px;
+  }
+   

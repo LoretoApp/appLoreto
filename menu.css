@@ -10,7 +10,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-    background-color: #B8226A;
+    height: max-content;
+        background-color: #B8226A;
     z-index: 2;
 }
 
@@ -54,6 +55,7 @@ header {
 
     .abrir-menu {
         color: #F8E5DF;
+        z-index: 1000;
     }
 
     .cerrar-menu {
