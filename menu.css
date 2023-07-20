@@ -32,7 +32,7 @@ h3{
     justify-content: space-between;
     background-color:var(--color-principal);
     height: 46px; 
-    z-index: 2;
+   
 }
 
 .abrir-menu{
@@ -81,9 +81,6 @@ input{
     
 }
 
-#nav {
-    z-index: 1;
-}
 
 .nav-list {
     list-style-type: none;

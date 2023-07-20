@@ -1,0 +1,32 @@
+:root{
+    --color-principal: #B8226A;
+    --color-segundo: #F8E5DF;
+    --color-tercero: #FFA041;
+    --color-text:#4B102D;
+    --texto-h1: 48px;
+    --texto-h2: 30px;
+    --texto-h3:15px;
+    --texto-h4: 10px;
+    --texto-parrafos:18px;
+    --texto-btn:24px
+}
+
+#formularioDeCompras{
+    font-family:'Hahmlet', serif;
+    color: var(--color-text);
+    
+
+    
+}
+
+.btn-primary{
+    background-color: var(--color-principal);
+    color:var(--color-segundo) ;
+    border-color: var(--color-principal);
+    border-radius: 16px;
+    width: 162px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    
+}
+
