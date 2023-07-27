@@ -16,7 +16,7 @@
 body{
   line-height: 1.4;
 }
-/* Estilos CSS para el footer */
+/* Estilos CSS para el footer (estilos tipo*/
 footer {
   background-color: var(--color-principal);
   color:var(--color-segundo);
