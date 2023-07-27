@@ -1,10 +1,92 @@
-#piePagina {
-  background-color: #B8226A;
+
+:root{
+  --color-principal: #B8226A;
+  --color-segundo: #F8E5DF;
+  --color-tercero: #FFA041;
+  --color-text:#4B102D;
+  --texto-h1: 48px;
+  --texto-h2: 30px;
+  --texto-h3:15px;
+  --texto-h4: 10px;
+  --texto-parrafos:18px;
+  --texto-btn:24px
 }
-svg{
-  height: 10vw;
-  fill: #F8E5DF;
+
+
+body{
+  line-height: 1.4;
 }
-.derechos {
-  font-size: 4vw;
+/* Estilos CSS para el footer */
+footer {
+  background-color: var(--color-principal);
+  color:var(--color-segundo);
+  font-size: 12px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Khand', sans-serif;
+}
+
+/* Estilos para los elementos dentro del footer si se llegan a necesitar */
+/* .footer-elemento { */
+  
+  
+
+
+/* Estilos para los elementos 1 y 2 en pantallas pequeñas (mobile) */
+.footer-elemento-sm {
+  text-align: left;
+}
+
+.div.iconos{
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  .footer-elemento-sm {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .footer-elemento-sm:first-child {
+      text-align:left;
+      
+    }
+  
+    /* Estilos para el segundo elemento en pantallas pequeñas (mobile) */
+  .footer-elemento-sm:last-child {
+      text-align: right;
+      margin-top: 10px;
+    }
+  
+    /* Ajuste adicional para ambos elementos en pantallas pequeñas */
+  .footer-elemento-sm {
+      display: inline-block;
+      width: 50%;
+     
+    }
+  img.whatsapp{
+      width: 44px;
+      height: 44px;
+      border-radius: 60px;
+  }
+  img.sercotec{
+      width: 67px;
+      height: 47px;
+      margin-left: 5px;
+      
+    }
+}
+
+/* Estilos para el texto de derechos de autor */
+.text-center {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  
+}
+p{
+  margin-bottom: 10px;
 }
